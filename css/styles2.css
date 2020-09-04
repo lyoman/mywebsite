@@ -1,0 +1,605 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    /* background: url(../images/body/body-bg-top.jpg) repeat-x; */
+    background-color: #FFF;
+    background-image: url(../images/body/body-bg-top_forcontent.jpg);
+    background-repeat: repeat-x;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #639;
+    text-transform: uppercase;
+}
+
+
+/* Top Navigation CSS */
+
+.top-nav-container {
+    width: 986px;
+    height: 43px;
+}
+
+.top-nav-container td {
+    height: 43px;
+    text-align: center;
+}
+
+.top-nav-container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #2B4A8C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-nav-container a:hover {
+    color: #FEA828;
+}
+
+.top-nav-break {
+    background: url(../images/header/header-top-nav-break.jpg) 0px 5px no-repeat;
+    width: 1px;
+    height: 43px;
+}
+
+
+/* body {
+    padding: 0rem 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    max-width: 60rem;
+    margin: 0 auto;
+    color: #333;
+} */
+
+img {
+    max-width: 100%;
+}
+
+.Header {
+    text-align: center;
+    border-bottom: 0px double #f9f9f9;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.LogoWrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.NavButton {
+    /* position: relative; */
+    margin: auto;
+}
+
+.NavButton img {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 6%;
+}
+
+
+/* #introImg {
+    width: 200px;
+} */
+
+.IntroPicture {
+    text-align: center;
+    border-bottom: 0px double #f9f9f9;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.IntroPicture img {
+    width: 74%;
+}
+
+.Mel {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.Content {
+    position: relative
+}
+
+.opacity:hover {
+    opacity: 0.50;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.50;
+    zoom: 1;
+}
+
+
+/* Footer CSS */
+
+.footer-bg-repeating {
+    background: url(../images/footer/footer-bg-repeating.jpg) repeat-x;
+    width: 100%;
+    height: 117px;
+}
+
+.footer-main-bg {
+    background: url(../images/footer/footer-main-bg.jpg);
+    width: 986px;
+}
+
+.footer-text td {
+    height: 41px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #000;
+}
+
+.footer-text a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #7C5D84;
+}
+
+
+/* Left Navigation CSS */
+
+.leftnav-main-bg {
+    background: url(../images/leftnav/leftnav-main-bg.jpg) repeat-y;
+}
+
+.leftnav-bg-top {
+    background: url(../images/leftnav/leftnav-bg-top.jpg) no-repeat;
+    width: 223px;
+}
+
+.leftnav-break {
+    background: url(../images/leftnav/leftnav-break.png);
+    width: 223px;
+    height: 1px;
+}
+
+.leftnav-links-box {
+    vertical-align: middle;
+    background: url(../images/leftnav/leftnav-arrow.png) 32px 12px no-repeat;
+    height: 28px;
+    width: 223px;
+    padding-left: 60px;
+}
+
+.leftnav-links-box a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leftnav-links-box a:hover {
+    color: #FEA828;
+}
+
+.leftnav-links-list ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    list-style: square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #FFF;
+}
+
+.leftnav-links-list a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.leftnav-links-list a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #FEA828;
+    text-decoration: none;
+}
+
+
+/* LeftNav Contact Information  CSS */
+
+.leftnav-contactus-bg {
+    background: url(../images/leftnav/leftnav-contactus-bg.jpg);
+    width: 223px;
+    height: 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.leftnav-contact-title {
+    width: 75px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #000;
+    font-weight: bold;
+}
+
+.leftnav-contact-info {
+    width: 143px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #333333;
+}
+
+.leftnav-contact-info a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #333333;
+    text-decoration: none;
+}
+
+.leftnav-contact-info a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.content-gradient-top {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a.link {
+    text-decoration: underline
+}
+
+.Scroll_Wrapper {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    /*Remove the scrollbars in supporting versions of older IE*/
+    -ms-overflow-style: none;
+    /* Hide scrollbar in Firefox */
+    scrollbar-width: none;
+    /* Make a counter */
+    counter-reset: count-the-films;
+    white-space: nowrap;
+}
+
+.Scroll_Wrapper a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+/*Stops the scrollbar appearing in Safari, Chrome and MS Edge browsers*/
+
+.Scroll_Wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.Item {
+    display: inline-flex;
+    flex-direction: column;
+    white-space: normal;
+    counter-increment: count-the-films;
+    position: relative;
+    margin: 15px 20px;
+}
+
+.Item::before {
+    content: counter(count-the-films);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    top: -15px;
+    left: -0.7rem;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #111;
+    background-color: #f0f0f0;
+}
+
+.Item img {
+    max-height: 7.25rem;
+    border: 1px solid #8c8c8c;
+}
+
+.Caption {
+    margin-top: 10px;
+    max-width: 6rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: black;
+}
+
+.ScrollBtn {
+    margin: 20px 0 0 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    min-height: 35px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+
+.ScrollBtn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+#mfooter {
+    display: none;
+}
+
+#max-width-359 {
+    display: none;
+}
+
+#min-width-800 {
+    display: none;
+}
+
+#HeaderRight {
+    display: none;
+}
+
+#main-title {
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#title-359 {
+    display: none;
+}
+
+#title-800 {
+    display: none;
+}
+
+@media screen and (max-width: 800px) and (min-width: 360px) {
+    .content-gradient-top {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    p {
+        font-size: 45px;
+    }
+    #main-title {
+        display: none;
+        clear: both;
+        padding-top: 2%;
+    }
+    #title-800 {
+        display: block;
+        padding-top: 2%;
+        clear: both;
+        padding-bottom: 1%;
+    }
+    #tcontactUs {
+        display: none;
+    }
+    #left-table {
+        display: none;
+    }
+    table {
+        /* max-width: 100%; */
+        width: inherit;
+    }
+    .Header800 #Header800-Left {
+        float: left;
+        max-width: 90%;
+        padding-right: 1%;
+    }
+    .Header800 #Header800-right {
+        display: block;
+        float: right;
+        max-width: 10%;
+        padding-right: 1%;
+        padding-top: 3%;
+    }
+    .IntroPicture800 {
+        clear: both;
+    }
+    .Header {
+        display: none;
+    }
+    .IntroPicture {
+        display: none;
+    }
+    #max-width-359 {
+        display: none;
+    }
+    #min-width-800 {
+        display: block;
+    }
+    #footer {
+        display: none;
+    }
+    #tfooter {
+        display: none;
+    }
+    #mfooter {
+        display: block;
+    }
+    .footer-text td {
+        font-size: 20px;
+    }
+    .footer-main-bg {
+        background: url(../images/footer/footer-main-bg.jpg);
+        width: initial;
+    }
+    h2,
+    h1,
+    figcaption,
+    h3 {
+        font-size: 35px;
+    }
+    .Caption {
+        font-size: 35px;
+    }
+    #td-copy {
+        font-size: 30px;
+    }
+    .footer-text a {
+        font-size: 30px;
+    }
+    .ScrollBtn {
+        font-size: 15px;
+    }
+    p {
+        text-align: justify;
+    }
+    .containerdivX {
+        float: left;
+        position: relative;
+    }
+    .cornerimageX {
+        position: absolute;
+        top: 15;
+        right: 15;
+    }
+    .IntroPicture800 {
+        text-align: center;
+        border-bottom: 0px double #f9f9f9;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .content-gradient-top {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    p {
+        font-size: 45px;
+    }
+    #main-title {
+        display: none;
+        padding-top: 2%;
+    }
+    #title-359 {
+        display: block;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        clear: both;
+    }
+    .body-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #tcontactUs {
+        display: none;
+    }
+    #left-table {
+        display: none;
+    }
+    table {
+        max-width: 100%;
+        width: inherit;
+    }
+    .Header {
+        display: none;
+    }
+    .IntroPicture {
+        display: none;
+    }
+    .Header359 {
+        max-width: 100%;
+    }
+    .Header359 #Header359-left {
+        float: left;
+        max-width: 90%;
+        padding-right: 1%;
+    }
+    .Header359 #Header359-right {
+        float: right;
+        max-width: 10%;
+        padding-top: 3%;
+        padding-right: 1%;
+    }
+    #IntroPicture359 {
+        clear: both;
+    }
+    #max-width-359 {
+        display: inline-block;
+    }
+    #tfooter {
+        display: none;
+    }
+    #footer {
+        display: none;
+    }
+    #mfooter {
+        display: block;
+    }
+    .footer-text td {
+        font-size: 20px;
+    }
+    .footer-main-bg {
+        background: url(../images/footer/footer-main-bg.jpg);
+        width: initial;
+    }
+    h2,
+    h1,
+    figcaption,
+    h3 {
+        font-size: 45px;
+    }
+    .Caption {
+        font-size: 35px;
+    }
+    .footer-text a {
+        font-size: 30px;
+    }
+    .ScrollBtn {
+        font-size: 25px;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+.body-content {
+    padding: 3%;
+}

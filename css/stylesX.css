@@ -1,0 +1,36 @@
+.containerdiv {
+    float: left;
+    position: relative;
+}
+
+.cornerimage {
+    position: absolute;
+    top: 15;
+    right: 15;
+}
+
+.IntroPicture {
+    text-align: center;
+    border-bottom: 0px double #f9f9f9;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.MelX {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.Content {
+    position: relative
+}
+
+h1 {
+    padding: 1%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #639;
+    text-transform: uppercase;
+}

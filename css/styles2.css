@@ -13,6 +13,13 @@ body {
     background-repeat: repeat-x;
 }
 
+
+/* body {
+    width: 1920px;
+    background-color: #f8e0b3;
+    height: auto;
+} */
+
 h1 {
     padding: 0;
     margin: 0;
@@ -89,7 +96,7 @@ img {
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
-    margin-top: 6%;
+    margin-top: 2%;
 }
 
 
@@ -394,15 +401,85 @@ a.link {
     display: none;
 }
 
-@media screen and (max-width: 800px) and (min-width: 360px) {
+.main-container {
+    width: 100%;
+    max-width: 986px;
+    align-content: center;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.left-table {
+    width: 25%;
+    max-width: 223px;
+    vertical-align: top;
+    /* border-spacing: 0;
+    border-collapse: collapse; */
+}
+
+.leftnav-bg-top {
+    width: 223px;
+    /* border-spacing: 0;
+    border-collapse: collapse; */
+}
+
+.inner-left {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.contact-left {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.content-gradient-top {
+    width: 75%;
+    vertical-align: top;
+}
+
+.mfooter {
+    width: initial;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.footer {
+    width: 100%;
+    max-width: 986px;
+    align-content: center;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 360px) {
     .content-gradient-top {
         padding-top: 0;
         padding-left: 0;
         padding-right: 0;
+        width: fit-content;
     }
-    p {
-        font-size: 45px;
+    table,
+    div,
+    td {
+        width: 100%;
     }
+    /* p {
+        font-size: 35px;
+    } */
     #main-title {
         display: none;
         clear: both;
@@ -419,10 +496,6 @@ a.link {
     }
     #left-table {
         display: none;
-    }
-    table {
-        /* max-width: 100%; */
-        width: inherit;
     }
     .Header800 #Header800-Left {
         float: left;
@@ -460,14 +533,14 @@ a.link {
     #mfooter {
         display: block;
     }
-    .footer-text td {
+    /* .footer-text td {
         font-size: 20px;
-    }
+    } */
     .footer-main-bg {
         background: url(../images/footer/footer-main-bg.jpg);
         width: initial;
     }
-    h2,
+    /* h2,
     h1,
     figcaption,
     h3 {
@@ -484,7 +557,7 @@ a.link {
     }
     .ScrollBtn {
         font-size: 15px;
-    }
+    } */
     p {
         text-align: justify;
     }
@@ -503,6 +576,37 @@ a.link {
         margin-bottom: 0rem;
         padding-bottom: 0rem;
     }
+    body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        /* background: url(../images/body/body-bg-top.jpg) repeat-x; */
+        background-color: #FFF;
+        /* background-image: url(../images/body/body-bg-top_forcontent.jpg); */
+        background-repeat: repeat-x;
+        font-size: medium;
+    }
+    .footer-bg-repeating {
+        vertical-align: top;
+        max-height: 117px;
+    }
+    .footer-bg-repeating table {
+        align-content: center;
+        width: 100%;
+        max-width: 986px;
+    }
+    #footer-text {
+        /* min-width: 50px; */
+        width: auto;
+        vertical-align: middle;
+    }
+    .footer-right {
+        /* max-width: fit-content; */
+        width: auto;
+        vertical-align: middle;
+        align-content: right;
+    }
 }
 
 @media screen and (max-width: 359px) {
@@ -511,9 +615,9 @@ a.link {
         padding-left: 0;
         padding-right: 0;
     }
-    p {
+    /* p {
         font-size: 45px;
-    }
+    } */
     #main-title {
         display: none;
         padding-top: 2%;
@@ -580,7 +684,7 @@ a.link {
         background: url(../images/footer/footer-main-bg.jpg);
         width: initial;
     }
-    h2,
+    /* h2,
     h1,
     figcaption,
     h3 {
@@ -594,7 +698,7 @@ a.link {
     }
     .ScrollBtn {
         font-size: 25px;
-    }
+    } */
     p {
         text-align: justify;
     }
@@ -602,4 +706,8 @@ a.link {
 
 .body-content {
     padding: 3%;
+}
+
+* {
+    box-sizing: border-box;
 }
